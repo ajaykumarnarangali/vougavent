@@ -5,6 +5,7 @@ import DescNav from "./DescNav";
 import Modal from './Modal';
 import productLinks from '../../data/header/ProductLinks'
 import serviceLinks from '../../data/header/ServiceLinks'
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -39,13 +40,15 @@ function Header() {
     <header className="bg-white w-full shadow-sm border-b z-50 border-gray-100 text-primary fixed font-helvetica">
       <div className="max-w-5xl xl:max-w-7xl flex justify-between mx-auto py-4 pe-4 items-center">
         {/* Logo */}
-        <div className="flex-shrink-0">
-          <img
-            src={Logo}
-            alt="Company Logo"
-            className="h-8 md:h-10 lg:h-12 w-auto"
-          />
-        </div>
+        <Link to={'/'}>
+          <div className="flex-shrink-0">
+            <img
+              src={Logo}
+              alt="Company Logo"
+              className="h-8 md:h-10 lg:h-12 w-auto"
+            />
+          </div>
+        </Link>
         <DescNav
           mobileOpen={mobileOpen}
           setMobileOpen={setMobileOpen}
