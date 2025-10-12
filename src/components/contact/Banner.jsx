@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import Banner_image from '../../assets/contact/Banner_image.jpg';
+import Banner_image from '../../assets/contact/banner_image.jpg';
 
 function Banner() {
   return (
