@@ -1,28 +1,24 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import ScrollToTop from "./components/common/ScrollToTop";
 import MainLayout from "./layout/MainLayout";
-import Home from "./pages/Home"
-import About from "./pages/About"
+import Home from "./pages/Home";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 
 function App() {
-
-  const router = createBrowserRouter([
-    {
-      element: <MainLayout />,
-      children: [
-        { path: '/', element: <Home /> },
-        { path: '/about', element: <About /> },
-        { path: '/contact', element: <Contact /> }
-      ]
-    }
-  ]);
-
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  )
+    <BrowserRouter>
+      <ScrollToTop />
+      <MainLayout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </MainLayout>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

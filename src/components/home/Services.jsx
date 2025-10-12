@@ -24,7 +24,7 @@ const Card = ({ title, description, features, link }) => {
     return (
         <div
             className={`bg-white rounded-lg  lg:rounded-2xl shadow-lg p-4 lg:p-8 flex flex-col justify-between
-                 transition-transform transform hover:-translate-y-3 cursor-pointer
+                 transition-transform transform hover:-translate-y-2 cursor-pointer duration-300
                  ${isOpen ?'md:h-[730px] lg:h-[780px] xl:h-[700px]' : 'md:h-[520px] lg:h-[550px] xl:h-[490px]'}`}
             style={{ backgroundColor: cardBgColor }}
         >

@@ -14,6 +14,7 @@ function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState(null);
 
+
   const handleModal = useCallback((key) => {
     if (modalData) {
       if (modalData?.type === key) {

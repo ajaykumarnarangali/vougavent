@@ -52,8 +52,9 @@ const ContactForm = () => {
                     </p>
 
                     {/* Contact Cards */}
+                    {/* Contact Cards */}
                     <div className="flex flex-col gap-4">
-                        <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm">
+                        <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm hover:shadow-lg hover:bg-gray-50 transition-all duration-300 cursor-pointer">
                             <div className="bg-secondary text-white p-3 rounded-full">
                                 <MapPin size={20} />
                             </div>
@@ -68,7 +69,7 @@ const ContactForm = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm">
+                        <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm hover:shadow-lg hover:bg-gray-50 transition-all duration-300 cursor-pointer">
                             <div className="bg-secondary text-white p-3 rounded-full">
                                 <Phone size={20} />
                             </div>
@@ -78,7 +79,7 @@ const ContactForm = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm">
+                        <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm hover:shadow-lg hover:bg-gray-50 transition-all duration-300 cursor-pointer">
                             <div className="bg-secondary text-white p-3 rounded-full">
                                 <Mail size={20} />
                             </div>
