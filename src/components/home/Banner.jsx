@@ -31,9 +31,6 @@ export default function Banner() {
                             alt={item.heading}
                             className="w-full h-full object-contain lg:object-cover"
                         />
-                        {/* <div className="absolute inset-0 flex flex-col items-start justify-center bg-gradient-to-b from-[rgba(31,64,123,0.3)] to-transparent
-     p-6 lg:p-12 text-white text-center"> */}
-                            {/* <div className="absolute inset-0 flex flex-col items-start justify-center bg-black/30 p-6 lg:p-12 text-white text-center"> */}
                             <div className="absolute inset-0 flex flex-col items-start justify-center bg-[rgba(31,64,123,0.3)]  p-6 lg:p-12 text-white text-center">
                             <motion.h2
                                 key={`${item.heading}-${activeIndex}`}

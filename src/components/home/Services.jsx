@@ -42,7 +42,7 @@ const Card = ({ title, description, features, link }) => {
                         onClick={() => setIsOpen(!isOpen)}
                         className="flex items-center text-sm font-medium text-primary mb-4 hover:underline"
                     >
-                        {isOpen ? "Hide Features" : "View Features"}
+                        {isOpen ? "Hide Services" : "View Services"}
                         {isOpen ? <ChevronUp size={16} className="ml-1" /> : <ChevronDown size={16} className="ml-1" />}
                     </button>
                 )}
@@ -94,7 +94,7 @@ const Card = ({ title, description, features, link }) => {
 const Services = () => {
     return (
         <div
-            className="h-fit p-5 lg:p-10"
+            className="h-fit py-5 px-6 lg:p-10"
             style={{
                 backgroundImage: `linear-gradient(to bottom, ${mainBgFrom}, ${mainBgMid}, ${mainBgTo})`,
             }}
