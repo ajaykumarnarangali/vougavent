@@ -14,6 +14,7 @@ function Header() {
 
   useEffect(() => {
     handleModalClose();
+    setMobileOpen(false);
   }, [path])
 
   const [isModalOpen, setIsModalOpen] = useState(false);
