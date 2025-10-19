@@ -2,6 +2,8 @@ import Banner from '../../components/common/Banner'
 import Banner_image from '../../assets/services/IoT/IoT.jpg'
 import IoT from '../../components/services/IoTsolutions/IoT'
 import TableData from '../../components/services/IoTsolutions/TableData'
+import Accordion from '../../components/common/Accordion'
+import {IoTfaqData} from '../../data/services/IoT'
 
 function IotSolutions() {
   return (
@@ -16,6 +18,11 @@ function IotSolutions() {
       />
       <IoT />
       <TableData />
+      <div className="flex justify-center px-5">
+        <div className='py-4 w-full max-w-7xl'>
+          <Accordion faqData={IoTfaqData}/>
+        </div>
+      </div>
     </div>
   )
 }
