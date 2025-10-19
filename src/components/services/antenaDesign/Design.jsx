@@ -1,96 +1,53 @@
-import engineering_reability from '../../../assets/services/safetyAnalysis/engineering_reability.jpg'
-import thermal_simulation from '../../../assets/services/safetyAnalysis/thermal_simulation.jpg'
-import pcb_failure_analysis from '../../../assets/services/safetyAnalysis/pcb_failure_analysis.jpg'
+import {AntenaServices} from '../../../data/services/Antena'
 
-const Design = () => {
-    return (
-        <section className="bg-white py-20">
-            <div className="container mx-auto px-6">
+function Design() {
+  return (
+    <section className="relative py-6 bg-gray-50">
+      {/* Top white gradient transition */}
+      <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-white to-transparent pointer-events-none"></div>
 
-                {/* First full-width card */}
-                <div className="bg-white overflow-hidden border-2 md:p-5 rounded-2xl shadow-xl mb-20 flex flex-col md:flex-row">
-                    <div className="md:w-1/2">
-                        <img
-                            src={engineering_reability}
-                            alt="Engineering Reliability"
-                            className="w-full h-auto object-cover"
-                        />
-                    </div>
-                    <div className="md:w-1/2 p-12 flex flex-col justify-center">
-                        <h3 className="text-3xl font-bold text-primary mb-6">
-                            Engineering Reliability
-                        </h3>
-                        <p className="text-gray-700 text-base mb-4">
-                            With our immense experience in product engineering, we offer services for developing reliable products.
-                            Reliability needs to be considered consistent from the concept phase to the Manufacturing phase.
-                        </p>
-                        <p className="text-gray-700 font-semibold mb-2">Services include:</p>
-                        <ul className="list-disc list-inside text-gray-700">
-                            <li>MTBF Calculation</li>
-                            <li>FMEA</li>
-                            <li>Reliability Prediction</li>
-                            <li>Fault Tree Analysis (FTA)</li>
-                        </ul>
-                    </div>
-                </div>
+      <div className="relative max-w-7xl mx-auto">
+        {/* Header Section */}
+        <div className="text-center mb-12">
+          <h2 className="text-xl font-bold text-primary sm:text-3xl">
+            Services in Focus
+          </h2>
+          <div className="w-16 h-1 bg-blue-600 mx-auto mt-4 rounded"></div>
+        </div>
 
-                {/* Full-width highlight section */}
-                <div className="bg-secondary text-white px-10 py-20 md:py-32 mb-20 text-center">
-                    <h3 className="text-3xl font-bold mb-6">
-                        SIL Rating and more
-                    </h3>
-                    <p className="text-lg  max-w-4xl mx-auto">
-                        Our certified professional supports the development of SIL-rated Electronics products,
-                        especially for areas like Railways, Automotive, and Industrial Applications.
-                    </p>
-                </div>
+        {/* 4-Card Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          {AntenaServices.map((AntenaService, index) => (
+            <div
+              key={index}
+              className="bg-white cursor-pointer p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 border border-gray-200 flex flex-col"
+            >
+              {/* Image/Icon */}
+              <div className="mb-4 flex justify-center items-center h-44 overflow-hidden rounded-xl bg-gray-50">
+                <img
+                  src={AntenaService.image}
+                  alt={AntenaService.title}
+                  className="object-contain w-full h-full p-4"
+                />
+              </div>
 
-                {/* Two half-width cards side by side */}
-                <div className="grid xl:grid-cols-2 gap-5">
-                    {/* PCB Failure Analysis */}
-                    <div className="bg-white border md:p-5 overflow-hidden rounded-2xl shadow-xl flex flex-col md:flex-row">
-                        <div className="md:w-1/2">
-                            <img
-                                src={pcb_failure_analysis}
-                                alt="PCB Failure Analysis"
-                                className="w-full h-[100%] object-cover"
-                            />
-                        </div>
-                        <div className="md:w-1/2 p-8 flex flex-col justify-center">
-                            <h3 className="text-2xl font-bold text-primary mb-4">
-                                PCB Failure Analysis
-                            </h3>
-                            <p className="text-gray-700">
-                                Reliability is the base criterion for the success of any product. Regular design cycles often miss worst-case operating conditions,
-                                which can lead to Field failures. The Field failures are often due to the factors like EOS (Electrical Overstress),
-                                ESD (Electro Static Discharge), Thermal Stress, Mechanical Stress, premature Aging of components, Environment, etc.
-                                We provide consultancy for failure analysis and developing countermeasures that helps to manufacture reliable products.
-                            </p>
-                        </div>
-                    </div>
+              {/* Title and Tagline */}
+              <h3 className="text-xl font-bold text-primary mt-2">
+                {AntenaService.title}
+              </h3>
+              <div className="w-10 h-0.5 bg-secondary my-2 rounded"></div>
 
-                    {/* Thermal Simulation */}
-                    <div className="bg-white border overflow-hidden md:p-5 rounded-2xl shadow-xl flex flex-col md:flex-row">
-                        <div className="md:w-1/2">
-                            <img
-                                src={thermal_simulation}
-                                alt="Thermal Simulation"
-                                className="w-full h-[100%] object-cover"
-                            />
-                        </div>
-                        <div className="md:w-1/2 p-8 flex flex-col justify-center">
-                            <h3 className="text-2xl font-bold text-primary mb-4">
-                                Thermal Simulation
-                            </h3>
-                            <p className="text-gray-700">
-                                Our Thermal simulation services ensure best-in-class thermal engineering by providing precise thermal simulation. We offer product level and PCB level simulations with approximating worst-case operating conditions. We will ensure that your product never exceeds the safe operating limits.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              {/* Description */}
+              <p className="text-gray-600 text-base leading-relaxed flex-grow">
+                {AntenaService.content}
+              </p>
             </div>
-        </section>
-    );
-};
+          ))}
+        </div>
+      </div>
+      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-b from-transparent to-white pointer-events-none"></div>
+    </section>
+  )
+}
 
-export default Design;
+export default Design

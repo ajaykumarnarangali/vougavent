@@ -1,6 +1,6 @@
 import Banner from '../../components/common/Banner'
 import Banner_image from '../../assets/services/safetyAnalysis/safetyAnalysis.jpg'
-import Design from '../../components/services/antenaDesign/Design'
+import Safety from '../../components/services/safetyComplience/Safety'
 
 function SafetyCompliance() {
   return (
@@ -10,7 +10,7 @@ function SafetyCompliance() {
         title={'Safety and Reliability Analysis'}
         content={'SIL Rated electronics devices'}
       />
-      <Design />
+      <Safety />
     </div>
   )
 }
