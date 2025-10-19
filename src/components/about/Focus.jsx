@@ -21,7 +21,7 @@ function Focus() {
           {industries.map((industry, index) => (
             <div
               key={index}
-              className="bg-white cursor-pointer p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 border border-gray-100 flex flex-col"
+              className="bg-white cursor-pointer p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1 border border-gray-200 flex flex-col"
             >
               {/* Image/Icon */}
               <div className="mb-4 flex justify-center items-center h-40 overflow-hidden rounded-xl bg-gray-50">

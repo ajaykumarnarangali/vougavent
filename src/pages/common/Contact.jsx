@@ -1,5 +1,5 @@
-import Banner from "../components/contact/Banner"
-import ContactForm from "../components/contact/ContactForm"
+import Banner from "../../components/contact/Banner"
+import ContactForm from "../../components/contact/ContactForm"
 
 function Contact() {
   return (

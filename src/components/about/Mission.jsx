@@ -12,7 +12,7 @@ const Mission = () => {
         {/* Mission + Journey Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
           {/* Mission Section */}
-          <div className="border border-gray-100 rounded-2xl p-8 flex flex-col justify-between bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="border-2 border-gray-100 rounded-2xl p-8 flex flex-col justify-between bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
             <div>
               <h2 className="text-2xl font-bold text-primary mb-3">Our Mission</h2>
               <h3 className="text-lg font-semibold text-secondary mb-4">
@@ -42,7 +42,7 @@ const Mission = () => {
           </div>
 
           {/* Journey Timeline */}
-          <div className="border border-gray-100 rounded-2xl p-8 flex flex-col justify-between bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="border-2 border-gray-100 rounded-2xl p-8 flex flex-col justify-between bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
             <div>
               <h2 className="text-2xl font-bold text-primary mb-3">Our Journey</h2>
               <h3 className="text-lg font-semibold text-secondary mb-8">Milestones from 2016</h3>
@@ -71,7 +71,7 @@ const Mission = () => {
         </div>
 
         {/* Philosophy Section */}
-        <div className="border border-gray-100 rounded-2xl p-8 flex flex-col lg:flex-row items-center gap-8 bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div className="border-2 border-gray-100 rounded-2xl p-8 flex flex-col lg:flex-row items-center gap-8 bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
           {/* Image */}
           <div className="w-full lg:w-1/2 relative overflow-hidden rounded-xl shadow-sm h-72 lg:h-96">
             <img

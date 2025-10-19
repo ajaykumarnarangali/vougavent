@@ -1,15 +1,20 @@
 import Logo from '../../assets/common/Logo.webp'
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import MobileNav from "./MobileNav";
 import DescNav from "./DescNav";
 import Modal from './Modal';
 import productLinks from '../../data/header/ProductLinks'
 import serviceLinks from '../../data/header/ServiceLinks'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
 
   const [mobileOpen, setMobileOpen] = useState(false);
+  const path = useLocation().pathname;
+
+  useEffect(() => {
+    handleModalClose();
+  }, [path])
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState(null);

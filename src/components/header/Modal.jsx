@@ -17,8 +17,8 @@ function Modal({ modalData, handleModalClose }) {
                 <div className="grid grid-cols-1 gap-2 md:grid-cols-3 lg:grid-cols-4">
                     {modalData.data.map((section) => (
                         <div key={section.id} className="mb-4">
-                            <h3 className="text-base font-bold mb-2">{section.title}</h3>
                             <div className="space-y-1">
+                                <h3 className="text-base font-bold mb-2">{section.title}</h3>
                                 {section[modalData?.type].map((item) => (
                                     <div key={item.key}>
                                         <Link to={item?.path} className="text-sm font-normal cursor-pointer hover:text-blue-700">

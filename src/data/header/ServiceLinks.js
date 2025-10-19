@@ -38,15 +38,15 @@ const serviceParams = [
       { key: "cloud_computing", label: "Cloud Computing", path: "/services/iot-solutions" },
     ],
   },
-  {
-    id: "pcb-design-simulation",
-    title: "PCB Design And Simulation",
-    services: [
-      { key: "high_speed_pcb_design", label: "High Speed PCB Design", path: "/services/pcb-design-simulation" },
-      { key: "signal_integrity", label: "Signal Integrity", path: "/services/pcb-design-simulation" },
-      { key: "power_integrity", label: "Power Integrity", path: "/services/pcb-design-simulation" },
-    ],
-  },
+  // {
+  //   id: "pcb-design-simulation",
+  //   title: "PCB Design And Simulation",
+  //   services: [
+  //     { key: "high_speed_pcb_design", label: "High Speed PCB Design", path: "/services/pcb-design-simulation" },
+  //     { key: "signal_integrity", label: "Signal Integrity", path: "/services/pcb-design-simulation" },
+  //     { key: "power_integrity", label: "Power Integrity", path: "/services/pcb-design-simulation" },
+  //   ],
+  // },
   {
     id: "safety-compliance",
     title: "Safety Compliance",
