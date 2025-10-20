@@ -2,7 +2,7 @@ import Banner from '../../components/common/Banner'
 import Banner_image from '../../assets/services/antenaDesign/antenaDesign.jpg';
 import Accordion from '../../components/common/Accordion'
 import { EmiEmcfaqData } from '../../data/services/EmiEmc'
-import ConsultTable from '../../components/services/consulting/consultTable';
+import ConsultTable from '../../components/services/consulting/ConsultTable';
 
 function EmiEmcConsulting() {
   return (
