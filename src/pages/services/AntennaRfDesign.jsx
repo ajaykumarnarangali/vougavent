@@ -3,6 +3,7 @@ import Banner_image from '../../assets/services/antenaDesign/antenaDesign.jpg';
 import Accordion from '../../components/common/Accordion'
 import { AntenafaqData } from '../../data/services/Antena'
 import Design from '../../components/services/antenaDesign/Design';
+import Hero from '../../components/services/antenaDesign/Hero';
 
 function AntennaRfDesign() {
   return (
@@ -16,6 +17,7 @@ function AntennaRfDesign() {
         }
         bg={false}
       />
+      <Hero/>
       <Design />
       <div className="flex justify-center px-5">
         <div className='py-4 w-full max-w-7xl'>

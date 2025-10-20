@@ -2,6 +2,19 @@ import custom_antena from '../../assets/services/antenaDesign/custom_antena.jpg'
 import rf_test from '../../assets/services/antenaDesign/rf_test.png'
 import wireless_range from '../../assets/services/antenaDesign/wireless_range.png'
 
+import {
+  Antenna,
+  CircuitBoard,
+  Waves,
+  Filter,
+  Microwave,
+  Signal,
+  LayoutGrid,
+  Zap,
+  Globe,
+  Settings,
+} from 'lucide-react';
+
 export const AntenafaqData = [
   {
     id: 1,
@@ -71,3 +84,41 @@ export const AntenaServices=[
     The specially designed test systems can capture the RF Parameters in the production environment.`
   },
 ]
+
+export const MainExpertise = [
+  { icon: CircuitBoard, title: 'RF Circuit design' },
+  { icon: Antenna, title: 'Custom Antenna Design' },
+  { icon: Waves, title: 'Impedance Matching Circuits' },
+  { icon: Filter, title: 'RF Filters and Attenuators' },
+  { icon: LayoutGrid, title: 'RF System Design' }, 
+];
+
+export const MeasurementFacilities = [
+  { icon: Signal, title: 'Return Loss' },
+  { icon: Settings, title: 'Matching circuit tuning' },
+  { icon: Zap, title: 'Spurious Emission' },
+  { icon: Filter, title: 'Filter performance' },
+  { icon: Globe, title: 'Open air Radiation Pattern' },
+  { icon: Microwave, title: 'Wireless range testing' },
+];
+
+export const CoreServices = [
+  {
+    icon: Antenna,
+    title: 'Antenna Design & Optimization',
+    description:
+      'We design and optimize antennas for a wide range of wireless communication systems, IoT, Radars, GPS etc. Our team of engineers can design antennas that meet specific performance and size requirements.',
+  },
+  {
+    icon: CircuitBoard,
+    title: 'RF Circuit Design',
+    description:
+      'We design and optimize RF circuits for wireless communication systems, including low noise amplifiers, power amplifiers, and frequency converters. We use advanced simulation tools to optimize the performance of our RF circuit designs.',
+  },
+  {
+    icon: Microwave,
+    title: 'Wireless System Design',
+    description:
+      'We provide full wireless system design services, including the design of RF and antenna systems, as well as other wireless components such as modems and transceivers. We can also provide support for the integration of wireless systems.',
+  },
+];
