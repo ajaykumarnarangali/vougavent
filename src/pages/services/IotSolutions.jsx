@@ -18,7 +18,7 @@ function IotSolutions() {
       />
       <IoT />
       <TableData />
-      <div className="flex justify-center px-5">
+      <div className="flex justify-center px-5 bg-gray-50">
         <div className='py-4 w-full max-w-7xl'>
           <Accordion faqData={IoTfaqData}/>
         </div>

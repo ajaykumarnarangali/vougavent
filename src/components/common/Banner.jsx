@@ -12,7 +12,7 @@ function Banner({ image_url, title, content, bg = true }) {
 
             {/* Overlay: subtle gradient fading into white at bottom */}
             <div className="absolute inset-0 flex flex-col items-start md:justify-center">
-                <div className="absolute inset-0 bg-gradient-to-b from-[rgba(31,64,123,0.3)] via-[rgba(31,64,123,0.3)] to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-[rgba(31,64,123,0.3)] via-[rgba(31,64,123,0.3)]"></div>
 
                 <motion.h1
                     className={`relative text-white font-bold px-6 sm:px-12 lg:px-20 py-2 sm:py-3 lg:py-4 text-base md:text-xl lg:text-3xl ${bg ? 'md:bg-[rgba(0,0,0,0.4)]' : ''} max-w-full sm:max-w-[80%] md:max-w-[60%]`}

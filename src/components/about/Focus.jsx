@@ -5,7 +5,7 @@ function Focus() {
   return (
     <section className="relative py-16 bg-gray-50">
       {/* Top white gradient transition */}
-      <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-white to-transparent pointer-events-none"></div>
+      {/* <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-white to-transparent pointer-events-none"></div> */}
 
       <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 md:px-20 lg:px-8">
         {/* Header Section */}

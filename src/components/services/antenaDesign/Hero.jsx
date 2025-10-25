@@ -28,7 +28,7 @@ const FeatureListItem = ({ icon: Icon, title, colorClass = 'text-secondary' }) =
 
 const RfAntennaSections = () => {
     return (
-        <div className="bg-white px-4 py-6 md:py-12">
+        <div className="bg-gray-50 px-4 py-6 md:py-12">
             <div className="max-w-7xl mx-auto">
 
                 <SectionHeader

@@ -4,7 +4,7 @@ import Card from './Card'
 
 const IoT = () => {
   return (
-    <section className="md:py-12 px-6 md:px-20">
+    <section className="md:py-12 px-6 md:px-20 bg-gray-50">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
 
         {/* Left Column */}

@@ -4,11 +4,11 @@ import pcb_failure_analysis from '../../../assets/services/safetyAnalysis/pcb_fa
 
 const Safety = () => {
     return (
-        <section className="bg-white py-20">
+        <section className="bg-gray-50 py-20">
             <div className="container mx-auto px-6">
 
                 {/* First full-width card */}
-                <div className="bg-white overflow-hidden border-2 md:p-5 rounded-2xl shadow-xl mb-20 flex flex-col md:flex-row">
+                <div className="bg-white overflow-hidden border md:p-5 rounded-2xl shadow-xl mb-20 flex flex-col md:flex-row">
                     <div className="md:w-1/2">
                         <img
                             src={engineering_reability}

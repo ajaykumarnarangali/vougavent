@@ -7,7 +7,7 @@ import About_image from '../../assets/about/about_image.png'
 
 const Mission = () => {
   return (
-    <div className="bg-white py-16 px-6 lg:px-12">
+    <div className="bg-gray-50 py-16 px-6 lg:px-12">
       <div className="max-w-7xl mx-auto space-y-12">
         {/* Mission + Journey Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">

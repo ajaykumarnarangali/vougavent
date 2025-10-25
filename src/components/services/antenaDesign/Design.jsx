@@ -4,7 +4,7 @@ function Design() {
   return (
     <section className="relative px-4 py-6 bg-gray-50">
       {/* Top white gradient transition */}
-      <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-white to-transparent pointer-events-none"></div>
+      {/* <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-white to-transparent pointer-events-none"></div> */}
 
       <div className="relative max-w-7xl mx-auto">
         {/* Header Section */}
@@ -46,7 +46,7 @@ function Design() {
           ))}
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-b from-transparent to-white pointer-events-none"></div>
+      {/* <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-b from-transparent to-white pointer-events-none"></div> */}
     </section>
   )
 }
