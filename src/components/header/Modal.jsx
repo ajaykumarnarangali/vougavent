@@ -21,7 +21,7 @@ function Modal({ modalData, handleModalClose }) {
                                 <h3 className="text-base font-bold mb-2">{section.title}</h3>
                                 {section[modalData?.type].map((item) => (
                                     <div key={item.key}>
-                                        <Link to={item?.path} className="text-sm font-normal cursor-pointer hover:text-blue-700">
+                                        <Link to={item?.path} className="text-sm font-normal cursor-pointer hover:text-blue-700" onClick={handleModalClose}>
                                             {item?.label}
                                         </Link>
                                     </div>
