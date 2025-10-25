@@ -18,7 +18,7 @@ const FeatureCard = ({ icon: Icon, title, description, colorClass = 'text-primar
 );
 
 const FeatureListItem = ({ icon: Icon, title, colorClass = 'text-secondary' }) => (
-    <div className="flex items-center space-x-4 p-4 cursor-pointer hover:bg-indigo-50 rounded-lg transition duration-150">
+    <div className="flex items-center space-x-4 p-4 border cursor-pointer hover:bg-indigo-50 rounded-lg transition duration-150">
         <div className={`flex-shrink-0 ${colorClass}`}>
             <Icon className="w-6 h-6" strokeWidth={1.5} />
         </div>
