@@ -14,6 +14,7 @@ import SafetyCompliance from './pages/services/SafetyCompliance'
 
 import WifiToRs485 from "./pages/products/IndustrialAutomation/WifiToRs485";
 import IndustrialDisplay from "./pages/products/IndustrialAutomation/IndustrialDisplay";
+import Som from "./pages/products/IndustrialAutomation/Som";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           <Route path="/products">
             <Route path="wifi-module" element={<WifiToRs485 />} />
             <Route path="precision-gps" element={<SafetyCompliance />} />
-            <Route path="imx-8m-som" element={<SafetyCompliance />} />
+            <Route path="imx-8m-som" element={<Som />} />
             <Route path="industrial-display" element={<IndustrialDisplay />} />
           </Route>
         </Routes>
