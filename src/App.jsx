@@ -12,7 +12,7 @@ import AntennaRfDesign from './pages/services/AntennaRfDesign'
 import IotSolutions from './pages/services/IotSolutions'
 import SafetyCompliance from './pages/services/SafetyCompliance'
 
-import WifiToRs485 from "./pages/products/IndustrialAutomation/WifiToRs485";
+import WifiToRs485 from "./pages/products/IndustrialAutomation/WifiToRS485";
 import IndustrialDisplay from "./pages/products/IndustrialAutomation/IndustrialDisplay";
 import Som from "./pages/products/IndustrialAutomation/Som";
 import Presisiongps from "./pages/products/IndustrialAutomation/Presisiongps";
