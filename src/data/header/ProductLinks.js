@@ -21,10 +21,10 @@ const productParams = [
     id: "industrial-automation",
     title: "Industrial Automation",
     products: [
-      { key: "wifi-to-rs485-module", label: "WiFi To RS485 Module", path: "/products/industrial-automation/wifi-rs485" },
-      { key: "precision-gps-receiver", label: "Precision GPS Receiver", path: "/products/industrial-automation/gps-receiver" },
-      { key: "imx-8m-som", label: "IMX 8M SOM", path: "/products/industrial-automation/imx-8m-som" },
-      { key: "industrial-display", label: "Industrial Display", path: "/products/industrial-automation/industrial-display" },
+      { key: "wifi-to-rs485-module", label: "WiFi To RS485 Module", path: "/products/wifi-module" },
+      { key: "precision-gps-receiver", label: "Precision GPS Receiver", path: "/products/precision-gps" },
+      { key: "imx-8m-som", label: "IMX 8M SOM", path: "/products/imx-8m-som" },
+      { key: "industrial-display", label: "Industrial Display", path: "/products/industrial-display" },
     ],
   },
 ];

@@ -12,6 +12,8 @@ import AntennaRfDesign from './pages/services/AntennaRfDesign'
 import IotSolutions from './pages/services/IotSolutions'
 import SafetyCompliance from './pages/services/SafetyCompliance'
 
+import WifiToRs485 from "./pages/products/IndustrialAutomation/WifiToRs485";
+
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +29,12 @@ function App() {
             <Route path="antenna-rf-design" element={<AntennaRfDesign />} />
             <Route path="iot-solutions" element={<IotSolutions />} />
             <Route path="safety-compliance" element={<SafetyCompliance />} />
+          </Route>
+          <Route path="/products">
+            <Route path="wifi-module" element={<WifiToRs485 />} />
+            <Route path="precision-gps" element={<SafetyCompliance />} />
+            <Route path="imx-8m-som" element={<SafetyCompliance />} />
+            <Route path="industrial-display" element={<SafetyCompliance />} />
           </Route>
         </Routes>
       </MainLayout>
