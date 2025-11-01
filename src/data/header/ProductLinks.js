@@ -3,10 +3,10 @@ const productParams = [
     id: "emi-emc-pre-compliance",
     title: "EMI-EMC Pre Compliance",
     products: [
-      { key: "qesd-15a", label: "QESD-15A", path: "/products/emi-emc/qesd-15a" },
-      { key: "emi-near-field-probe", label: "EMI Near Field Probe", path: "/products/emi-emc/near-field-probe" },
-      { key: "gtem-cell", label: "GTEM Cell", path: "/products/emi-emc/gtem-cell" },
-      { key: "rf-power-amplifier", label: "RF Power Amplifier", path: "/products/emi-emc/rf-power-amplifier" },
+      { key: "qesd-15a", label: "QESD-15A", path: "/products/esd-simulator" },
+      { key: "emi-near-field-probe", label: "EMI Near Field Probe", path: "/products/emi-emc-pre_compliance_near_field_probe" },
+      { key: "gtem-cell", label: "GTEM Cell", path: "/products/gtem-cell" },
+      { key: "rf-power-amplifier", label: "RF Power Amplifier", path: "/products/Radio_frequency_amplifier" },
     ],
   },
   {

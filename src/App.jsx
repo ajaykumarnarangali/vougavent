@@ -14,10 +14,18 @@ import SafetyCompliance from './pages/services/SafetyCompliance'
 
 import WifiToRs485 from "./pages/products/IndustrialAutomation/WifiToRS485";
 import IndustrialDisplay from "./pages/products/IndustrialAutomation/IndustrialDisplay";
+
 import Som from "./pages/products/IndustrialAutomation/Som";
 import Presisiongps from "./pages/products/IndustrialAutomation/Presisiongps";
 import IoTGateway from "./pages/products/IoTsolutions/IoTGateway";
 import IoTDK from "./pages/products/IoTsolutions/IoTDK";
+
+import Rfamplifier from "./pages/products/EmiEmc/Rfamplifier";
+import Gtemcell from "./pages/products/EmiEmc/Gtemcell";
+import FiedProbe from "./pages/products/EmiEmc/FieldProbe";
+import Qesd from "./pages/products/EmiEmc/Qesd";
+
+
 
 function App() {
   return (
@@ -44,7 +52,10 @@ function App() {
             <Route path="IoT-gateway" element={<IoTGateway />} />
             <Route path="Lora-based-iot-multi-sensor-development" element={<IoTDK />} />
 
-
+            <Route path="esd-simulator" element={<Qesd />} />
+            <Route path="emi-emc-pre_compliance_near_field_probe" element={<FiedProbe />} />
+            <Route path="gtem-cell" element={<Gtemcell />} />
+            <Route path="Radio_frequency_amplifier" element={<Rfamplifier />} />
           </Route>
         </Routes>
       </MainLayout>
