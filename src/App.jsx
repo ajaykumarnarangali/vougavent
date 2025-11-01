@@ -24,6 +24,7 @@ import Rfamplifier from "./pages/products/EmiEmc/Rfamplifier";
 import Gtemcell from "./pages/products/EmiEmc/Gtemcell";
 import FiedProbe from "./pages/products/EmiEmc/FieldProbe";
 import Qesd from "./pages/products/EmiEmc/Qesd";
+import Careers from "./pages/common/Careers";
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/career" element={<Careers />} />
           <Route path="/services">
             <Route path="electronic-product-design" element={<ProductDesign />} />
             <Route path="emi-emc-consulting" element={<EmiEmcConsulting />} />
