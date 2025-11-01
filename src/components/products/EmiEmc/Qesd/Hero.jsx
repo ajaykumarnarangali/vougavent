@@ -13,7 +13,7 @@ const Hero = () => {
                     </div>
 
                     {/* Heading + Description */}
-                    <div className="max-w-xl">
+                    <div className="max-w-2xl">
                         <h2 className="text-2xl sm:text-3xl font-extrabold text-primary dark:text-white mb-2 text-center md:text-left">
                             Smart way to analyze ESD
                         </h2>
@@ -75,7 +75,8 @@ const Hero = () => {
                         <img
                             src={esd_latest}
                             alt="esd_latest"
-                            className="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-3/5 h-auto object-contain rounded-lg shadow-md transition-all duration-300"
+                            className="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-3/5 h-auto lg:h-[600px]
+                            object-contain rounded-lg shadow-md transition-all duration-300"
                         />
                     </div>
                 </div>

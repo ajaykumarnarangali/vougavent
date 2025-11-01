@@ -1,5 +1,6 @@
 import Banner from '../../../components/common/Banner'
 import Banner_image from '../../../assets/products/EmiEmc/gtem.webp'
+import Hero from '../../../components/products/EmiEmc/GtemCell/Hero'
 
 function Gtemcell() {
   return (
@@ -10,6 +11,7 @@ function Gtemcell() {
         content={`GTEM (Giga Hertz Transverse Electromagnetic Cell) enables shield EMI-EMC measurement for Emission and Immunity.
         Vougavent designs and Manufactures custom GTEM cells which enable you for in-house validation and failure analysis.`}
       />
+      <Hero/>
     </div>
   )
 }
