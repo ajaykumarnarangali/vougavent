@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 function Banner({ image_url, title, content, bg = true }) {
     return (
-        <div className="relative w-full overflow-hidden h-[400px] sm:h-[450px] md:h-full">
+        <div className="relative w-full overflow-hidden h-[200px] sm:h-[450px] md:h-full">
             {/* Background Image */}
             <img
                 src={image_url}

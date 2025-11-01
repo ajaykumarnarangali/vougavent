@@ -10,9 +10,9 @@ export default function IoTSection() {
   return (
     <div className="bg-gray-50 pt-12 pb-6 px-6">
       <div className="max-w-7xl mx-auto bg-white rounded-2xl shadow-md p-10">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-10">
           {/* Left Section */}
-          <div className="flex-1">
+          <div className="md:col-span-2">
             {/* 3 Feature Cards */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-8">
               {features.map((f, i) => (
