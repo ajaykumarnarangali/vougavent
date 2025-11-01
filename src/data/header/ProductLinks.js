@@ -13,8 +13,8 @@ const productParams = [
     id: "iot-solutions",
     title: "IOT Solutions",
     products: [
-      { key: "iot-gateway-gw1000", label: "IoT Gateway (GW1000)", path: "/products/iot/gw1000" },
-      { key: "lora-multi-function-dk", label: "LoRa Based Multi-Function IOT DK", path: "/products/iot/lora-dk" },
+      { key: "iot-gateway-gw1000", label: "IoT Gateway (GW1000)", path: "/products/IoT-gateway" },
+      { key: "lora-multi-function-dk", label: "LoRa Based Multi-Function IOT DK", path: "/products/Lora-based-iot-multi-sensor-development" },
     ],
   },
   {

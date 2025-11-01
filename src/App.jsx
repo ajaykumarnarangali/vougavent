@@ -16,6 +16,8 @@ import WifiToRs485 from "./pages/products/IndustrialAutomation/WifiToRS485";
 import IndustrialDisplay from "./pages/products/IndustrialAutomation/IndustrialDisplay";
 import Som from "./pages/products/IndustrialAutomation/Som";
 import Presisiongps from "./pages/products/IndustrialAutomation/Presisiongps";
+import IoTGateway from "./pages/products/IoTsolutions/IoTGateway";
+import IoTDK from "./pages/products/IoTsolutions/IoTDK";
 
 function App() {
   return (
@@ -38,6 +40,11 @@ function App() {
             <Route path="precision-gps" element={<Presisiongps />} />
             <Route path="imx-8m-som" element={<Som />} />
             <Route path="industrial-display" element={<IndustrialDisplay />} />
+
+            <Route path="IoT-gateway" element={<IoTGateway />} />
+            <Route path="Lora-based-iot-multi-sensor-development" element={<IoTDK />} />
+
+
           </Route>
         </Routes>
       </MainLayout>
