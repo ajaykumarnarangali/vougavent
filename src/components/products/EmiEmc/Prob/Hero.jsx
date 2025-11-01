@@ -1,4 +1,4 @@
-import ProbeImage from "../../../../assets/products/EmiEmc/EMINear-Field-Probe.jpg";
+import ProbeImage from "../../../../assets/products/EmiEmc/fied_prob/EMINear-Field-Probe.jpg";
 
 export default function EMIProbeCard() {
   return (

@@ -1,11 +1,11 @@
-import EV003G from '../../../assets/products/EmiEmc/EV003G.jpg'
-import EH003G from '../../../assets/products/EmiEmc/EH003G.jpg'
+import EV003G from '../../../assets/products/EmiEmc/fied_prob/EV003G.jpg'
+import EH003G from '../../../assets/products/EmiEmc/fied_prob/EH003G.jpg'
 
-import HM200M from '../../../assets/products/EmiEmc/HM200M.jpg'
-import HM001G from '../../../assets/products/EmiEmc/HM001G.jpg'
-import HM003G from '../../../assets/products/EmiEmc/HM003G.jpg'
+import HM200M from '../../../assets/products/EmiEmc/fied_prob/HM200M.jpg'
+import HM001G from '../../../assets/products/EmiEmc/fied_prob/HM001G.jpg'
+import HM003G from '../../../assets/products/EmiEmc/fied_prob/HM003G.jpg'
 
-import LNA003G from '../../../assets/products/EmiEmc/HM003G.jpg'
+import LNA003G from '../../../assets/products/EmiEmc/fied_prob/HM003G.jpg'
 
 
 export const E_Fied_Probes = [
